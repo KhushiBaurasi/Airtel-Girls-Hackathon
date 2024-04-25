@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telecommunication LOS Analysis</title>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+<div class="wrapper">
+  <header><i class='bx bx-left-arrow-alt'></i>Telecommunication LOS Analysis</header>
+  <section class="input-part">
+    <p class="info-txt">Enter the coordinates (latitude and longitude) of two locations of Network Towers to perform LOS analysis:</p>
+    <div class="content">
+      <div class="location-input">
+        <label for="location1">Location 1:</label>
+        <input id="location1" type="text" placeholder="Enter coordinates for Location 1 (latitude, longitude)">
+      </div>
+      <div class="location-input">
+        <label for="location2">Location 2:</label>
+        <input id="location2" type="text" placeholder="Enter coordinates for Location 2 (latitude, longitude)">
+      </div>
+      <button id="analyzeBtn">Perform LOS Analysis</button>
+    </div>
+  </section>
+  <section class="weather-part">
+    <div id="losResult"></div>
+  </section>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
